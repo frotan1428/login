@@ -1,47 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML_CSS</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Welcome To HTML-CSS Totrials</h1>
-        <img class="image" src="assets/mountain.png" alt="maountan">
-        <a href="https://www.techproeducation.com"
-           target="_blank">TechPro Education</a> <br>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page with Background Image Example</title>
+  <link rel="stylesheet" href="./style.css">
 
-           <a href=“img/logo.jpg”>Open the logo</a>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="bg"></div>
 
-           <ol>
-            <li>Teams
-             <ul>
-              <li>LA Lakers</li>
-              <li>Miami Heat</li>
-              <li>Boston Celtics</li>
-             </ul>
-            </li>
-            <li>NBA
-             <ul>
-              <li>Eastern Conference</li>
-              <li>Western Conference</li>
-             </ul>
-            <li>
-           </ol> 
-           <form>
-            <label> E-Mail </label>
-            <input type="text"> 
-            <input type="button" value=Save> 
-           </form>
 
-           <form>
-            <label>Name</label>
-            <input type="text" name="name" value="">
-            <br> 
-            <label>Pass</label>
-            <input type="password" name="pass" value="">
-            <br> 
-            <label>Age</label>
-            <input type="number" name=“age" value=""> 
-           </form>
-    </body>
+<form>
+  <h1>Login </h1>
+  <div class="form-field">
+    <input type="email" placeholder="Email / Username" required/>
+  </div>
+
+  <div class="form-field">
+    <input type="password" placeholder="Password" required/>
+  </div>
+  
+  
+  <div class="form-field">
+    <input type="password" placeholder="Confirm password" required/>                        
+  
+  </div>
+
+  
+  
+  <div>
+    <button class="btn" type="submit">Log in</button>
+  </div>
+</form>
+<!-- partial -->
+  
+</body>
 </html>
